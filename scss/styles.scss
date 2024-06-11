@@ -1,0 +1,167 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #F89120, #338BFB);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    width:100%;
+    max-width: 100%;
+}
+
+.left-side {
+    background: linear-gradient(135deg, #F89120,#338BFB);
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    width: 50%;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.workers {
+   width: 100%;
+   margin: auto;
+}
+
+.right-side {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 360px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    
+}
+
+.remember-me label {
+    white-space: nowrap; 
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: $primary-color;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: $primary-color;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darken($primary-color, 10%);
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+    color: $secondary-color;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.sign-up {
+    margin-top: 20px;
+    text-align: center;
+    color: $secondary-color;
+}
+
+.sign-up a {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+
+
+
